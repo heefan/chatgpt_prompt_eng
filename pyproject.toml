@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "02-guidelines"
+version = "0.1.0"
+description = "OpenAI, lecture2, Guilelines"
+authors = ["heefan <heefan@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "02_guidelines"}]
+
+[tool.poetry.dependencies]
+python = "3.10.2"
+python-dotenv = "^1.0.0"
+
+[tool.poetry.group.dev.dependencies]
+openai = "^0.27.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
